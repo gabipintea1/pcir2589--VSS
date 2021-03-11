@@ -8,6 +8,7 @@ import tasks.model.Task;
 
 import java.util.Date;
 
+//Should be in services
 public class Notificator extends Thread {
 
     private static final int millisecondsInSec = 1000;
