@@ -5,6 +5,8 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+
+//must create abstract method for update
 public abstract class TaskList implements Iterable<Task>, Serializable  {
     public abstract void add(Task task);
     public abstract boolean remove(Task task);
