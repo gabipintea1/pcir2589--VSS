@@ -1,4 +1,6 @@
-package tasks.model;
+package tasks.Repository;
+
+import tasks.model.Task;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -13,6 +15,7 @@ public abstract class TaskList implements Iterable<Task>, Serializable  {
     public abstract int size();
     public abstract Task getTask(int index);
     public abstract List<Task> getAll();
+    public abstract boolean update(Task task);
 
     public abstract Iterator<Task> iterator();
 

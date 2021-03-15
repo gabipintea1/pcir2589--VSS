@@ -1,13 +1,14 @@
-package tasks.model;
+package tasks.Repository;
 
 
 
 import org.apache.log4j.Logger;
+import tasks.model.Task;
 
 import java.util.*;
 
 
-public class ArrayTaskList extends TaskList{
+public class ArrayTaskList extends TaskList {
 
     private Task[] tasks;
     private int numberOfTasks;
@@ -101,6 +102,11 @@ public class ArrayTaskList extends TaskList{
         for (int i=0; i<this.numberOfTasks;i++)
             tks.add(this.tasks[i]);
         return tks;
+    }
+
+    @Override
+    public boolean update(Task task) {
+        return false;
     }
 
     @Override

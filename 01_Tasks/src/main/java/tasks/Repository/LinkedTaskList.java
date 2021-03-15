@@ -1,8 +1,9 @@
-package tasks.model;
+package tasks.Repository;
 
 
 
 import org.apache.log4j.Logger;
+import tasks.model.Task;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -102,6 +103,11 @@ public class LinkedTaskList  extends TaskList {
         for (Task t: this)
             tks.add(t);
         return tks;
+    }
+
+    @Override
+    public boolean update(Task task) {
+        return false;
     }
 
     @Override

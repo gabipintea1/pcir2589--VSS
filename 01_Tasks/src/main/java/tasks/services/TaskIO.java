@@ -3,9 +3,9 @@ package tasks.services;
 
 import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;
-import tasks.model.LinkedTaskList;
+import tasks.Repository.LinkedTaskList;
 import tasks.model.Task;
-import tasks.model.TaskList;
+import tasks.Repository.TaskList;
 import tasks.view.*;
 
 import java.io.*;
