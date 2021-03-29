@@ -1,0 +1,7 @@
+putty.exe -L 81:172.30.0.8:80 www.scs.ubbcluj.ro -P 8937
+​[15/03 16:28] FLORENTIN BOTA
+
+ssh abcd1234@www.scs.ubbcluj.ro -p 8937 -L 8080:172.30.0.8:80
+​[15/03 16:28] FLORENTIN BOTA
+
+http://localhost:81/testlink/login.php

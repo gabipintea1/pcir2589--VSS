@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e66cc95-0fdc-45cf-9084-1b3b5e87d298" name="Default Changelist" comment="" />
+    <list default="true" id="4e66cc95-0fdc-45cf-9084-1b3b5e87d298" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -72,11 +75,13 @@
       <option name="presentableId" value="Default" />
       <updated>1615820940493</updated>
       <workItem from="1615820941940" duration="2020000" />
+      <workItem from="1616084043614" duration="602000" />
+      <workItem from="1617036691674" duration="89000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -92,25 +97,29 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1615823474184">
+    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1617036779387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615823474184" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1615823339174">
+    <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1617036779387" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1615824105709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615823339174" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1615823339174">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615824105709" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1615824105709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615823339174" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1615823339174">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615824105709" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1615824105709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615823339174" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1615823339174">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615824105709" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1615824105709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615823339174" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615824105709" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1616084043293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616084043293" />
   </component>
 </project>
