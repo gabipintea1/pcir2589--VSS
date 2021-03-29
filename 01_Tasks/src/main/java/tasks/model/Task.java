@@ -23,9 +23,12 @@ public class Task implements Serializable, Cloneable {
         return sdf;
     }
     public Task(String title, Date time){
-        if (time.getTime() < 0) {
+        if (time.getTime() <= 0) {
             log.error("time below bound");
             throw new IllegalArgumentException("Time cannot be negative");
+        }
+        if(title.length()<1){
+            throw new IllegalArgumentException("Title cannot be empty");
         }
         this.title = title;
         this.time = time;
