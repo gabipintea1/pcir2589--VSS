@@ -17,16 +17,16 @@ import java.io.File;
 import java.io.IOException;
 
 
-public class Main extends Application {
+public class run extends Application {
     public static Stage primaryStage;
     private static final int defaultWidth = 820;
     private static final int defaultHeight = 520;
 
-    private static final Logger log = Logger.getLogger(Main.class.getName());
+    private static final Logger log = Logger.getLogger(run.class.getName());
 
     private ArrayTaskList savedTasksList = new ArrayTaskList();
 
-    private static ClassLoader classLoader = Main.class.getClassLoader();
+    private static ClassLoader classLoader = run.class.getClassLoader();
     public static File savedTasksFile = new File(classLoader.getResource("data/tasks.txt").getFile());
 
     private TasksService service = new TasksService(savedTasksList);//savedTasksList);

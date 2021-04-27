@@ -1,0 +1,12 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉœÆ‰ûÿÿÿÿ
+_
+java:S25839"DChange this condition so that it does not always evaluate to "false"(İ±äÜüÿÿÿÿ
+•
+java:S21599"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(İ±äÜüÿÿÿÿ
+o
+java:S2975“"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(êŠáÉûÿÿÿÿ
+U
+java:S1117”"9Rename "tasks" which hides the field declared at line 13.(¬ò‡Íûÿÿÿÿ
+d
+java:S1182“"HUse super.clone() to create and seed the cloned instance to be returned.(êŠáÉûÿÿÿÿ

@@ -1,0 +1,16 @@
+
+B
+java:S1602<",Remove useless curly braces around statement(çöÔˆ
+s
+java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ
+J
+java:S1444"4Make this "public static savedTasksFile" field final(¼Çü¦
+p
+java:S1104"ZMake savedTasksFile a static final constant or non-public and provide accessors if needed.(¼Çü¦
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ûæøûÿÿÿÿ8‰š‘ø/
+V	java:S125 "<This block of commented-out lines of code should be removed.(é±¨ãÿÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù‰ï…
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğÕÈ€
+Q	java:S125-"<This block of commented-out lines of code should be removed.(€â³Ö
+M
+java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ
