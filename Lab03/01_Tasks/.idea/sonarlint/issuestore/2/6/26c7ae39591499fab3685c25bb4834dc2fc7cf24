@@ -1,0 +1,37 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ý–ë“ûÿÿÿÿ
+E
+java:S2093Y"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+W	java:S125º"<This block of commented-out lines of code should be removed.(À›¸Öûÿÿÿÿ
+6
+java:S1659•"Declare "j" on a separate line.(±é…
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Ðœê†úÿÿÿÿ
+F
+java:S2093Š"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ÌÔ;
+n
+java:S3776¦"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(œÂÁñøÿÿÿÿ
+=
+java:S1659Õ"!Declare "end" on a separate line.(ÍôÁÑýÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôâ»Ô
+K
+java:S14814"0Remove this unused "titleLength" local variable.(ìôå‰ÿÿÿÿÿ
+A
+java:S1659§"%Declare "seconds" on a separate line.(ÚåÏ¾üÿÿÿÿ
+E
+java:S20931"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+?
+java:S1659§"#Declare "hours" on a separate line.(ÚåÏ¾üÿÿÿÿ
+E
+java:S2093K"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+E
+java:S2093}"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+A
+java:S1659§"%Declare "minutes" on a separate line.(ÚåÏ¾üÿÿÿÿ
+;
+java:S1659´"Declare "j" on a separate line.(Ù é®þÿÿÿÿ
+H
+java:S2885"-Make "simpleDateFormat" an instance variable.(ËÒÌýøÿÿÿÿ
