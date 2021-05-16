@@ -1,19 +1,32 @@
 ﻿using System;
+using System.Text.Json;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System.Threading.Tasks;
 using System.Threading;
+using System.IO;
 namespace Selenium_PEPI
 {
     class Program
     {
-        const string USER = "pepi_test";
-        const string PASS = "Pepi1234";
-        const string INVALID_MSG = "User does not exist.";
+        string USER = null;
+        string PASS = null;
+        string INVALID_MSG = null;
         IWebDriver driver;
 
+
+        private void init()
+        {
+            StreamReader reader = new StreamReader("E:/GitHubRepos/pcir2589--VSS/seleniumLab5/Selenium_PEPI/Selenium_PEPI/data.csv");
+            string[] data = reader.ReadToEnd().Split(",");
+            Console.WriteLine(data.ToString());
+            USER = data[0];
+            PASS = data[1];
+            INVALID_MSG = data[2];
+
+        }
 
         public void TestLogin()
         {
@@ -64,6 +77,7 @@ namespace Selenium_PEPI
         [SetUp]
         public void startBrowser()
         {
+            init();
             driver = new ChromeDriver("E:/GitHubRepos/pcir2589--VSS/seleniumLab5/Selenium_PEPI");
             driver.Url = "https://www.demoblaze.com/";
             driver.Manage().Window.Maximize();
