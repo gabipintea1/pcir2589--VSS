@@ -1,9 +1,9 @@
 
-m
-java:S3776f"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Î¥­üÿÿÿÿ
 6
 java:S2885" Make "sdf" an instance variable.(¸‰ˆí
-D
-java:S1940c")Use the opposite operator ("!=") instead.(‡í€µşÿÿÿÿ
 o
 java:S2975³"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(®Ç‹¹şÿÿÿÿ
+m
+java:S3776f"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Î¥­üÿÿÿÿ
+D
+java:S1940c")Use the opposite operator ("!=") instead.(‡í€µşÿÿÿÿ

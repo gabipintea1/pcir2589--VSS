@@ -7,6 +7,7 @@ import tasks.model.Task;
 import tasks.model.TasksOperations;
 
 import java.util.Date;
+import java.util.List;
 
 public class TasksService {
 
@@ -52,5 +53,17 @@ public class TasksService {
         //Iterable<Task> filtered = tasks.incoming(start, end);
 
         return filtered;
+    }
+    public void addTask(Task task){
+        tasks.add(task);
+
+    }
+
+    public List<Task> getAll(){
+       return tasks.getAll();
+    }
+
+    public void remove(Task task){
+        tasks.remove(task);
     }
 }

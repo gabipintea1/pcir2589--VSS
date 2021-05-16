@@ -23,3 +23,5 @@ S
 .src/main/java/tasks/model/TasksOperations.java,4\f\4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1
 b
 2src/test/java/tasks/model/TasksOperationsTest.java,2\5\256f630053d25ab19bee195a49b509c868810e3d
+W
+'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e

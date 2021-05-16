@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e66cc95-0fdc-45cf-9084-1b3b5e87d298" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tasks/model/TasksOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/665dec39384a747ccf12fd544bf02f4a3d18695a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/665dec39384a747ccf12fd544bf02f4a3d18695a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba27869b1e0ea8fe162ea3b4618a07816f29da05" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba27869b1e0ea8fe162ea3b4618a07816f29da05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecf3c385b36af4d118754ee8d9878c48978fcaa9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecf3c385b36af4d118754ee8d9878c48978fcaa9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/view/run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,16 +63,14 @@
       <recent name="tasks.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TasksOperationsTest.incoming_1">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TasksOperationsTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TasksOperationsTest" />
         <item itemvalue="JUnit.TasksOperationsTest.incoming_1" />
         <item itemvalue="JUnit.TasksOperationsTest.incoming_2" />
         <item itemvalue="JUnit.TasksOperationsTest.incoming_3" />
         <item itemvalue="JUnit.TasksOperationsTest.incoming_4" />
-        <item itemvalue="JUnit.TasksOperationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +191,8 @@
       <workItem from="1616084043614" duration="602000" />
       <workItem from="1617036691674" duration="89000" />
       <workItem from="1619454155250" duration="8322000" />
-      <workItem from="1619511462859" duration="4031000" />
+      <workItem from="1619511462859" duration="5849000" />
+      <workItem from="1620036815884" duration="640000" />
     </task>
     <servers />
   </component>
@@ -244,7 +239,7 @@
     <SUITE FILE_PATH="coverage/Tasks$TasksOperationsTest_incoming_4.ic" NAME="TasksOperationsTest.incoming_4 Coverage Results" MODIFIED="1619511575166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tasks.model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Tasks$TasksOperationsTest.ic" NAME="TasksOperationsTest Coverage Results" MODIFIED="1619511520907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Tasks$TasksOperationsTest.ic" NAME="TasksOperationsTest Coverage Results" MODIFIED="1619523732339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tasks.model.*</FILTER>
     </SUITE>
   </component>

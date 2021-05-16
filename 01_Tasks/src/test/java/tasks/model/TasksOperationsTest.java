@@ -1,6 +1,5 @@
 package tasks.model;
 
-import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.junit.jupiter.api.BeforeEach;
@@ -8,11 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
-import org.junit.*;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TasksOperationsTest {
    private static ObservableList<Task> observableList= FXCollections.observableArrayList();
